@@ -13,10 +13,14 @@ class MacPage extends StatefulWidget {
 
 class _MacPageState extends State<MacPage> {
   List<Product> produk = [
-    Product('MacBook Pro 13', 'Rp 19.499.000', 'assets/images/mac_pro13.jpg'),
-    Product('MacBook Pro 14', 'Rp 32.999.000', 'assets/images/mac_pro14.jpg'),
-    Product('MacBook Pro M1', 'Rp 16.499.000', 'assets/images/mac_pro_mi.jpg'),
-    Product('MacBook Air M1 ', 'Rp 16.899.000', 'assets/images/mac_m1_air.jpg'),
+    Product(
+        1, 'MacBook Pro 13', 'Rp 19.499.000', 'assets/images/mac_pro13.jpg'),
+    Product(
+        2, 'MacBook Pro 14', 'Rp 32.999.000', 'assets/images/mac_pro14.jpg'),
+    Product(
+        3, 'MacBook Pro M1', 'Rp 16.499.000', 'assets/images/mac_pro_mi.jpg'),
+    Product(
+        4, 'MacBook Air M1 ', 'Rp 16.899.000', 'assets/images/mac_m1_air.jpg'),
   ];
 
   @override
@@ -36,7 +40,7 @@ class _MacPageState extends State<MacPage> {
       ),
 
       // Drawer start
-      drawer: MyDrawer(),
+      drawer: const MyDrawer(),
       // Drawer end
       body: GridView.builder(
           padding: const EdgeInsets.all(25),

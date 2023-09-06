@@ -13,12 +13,12 @@ class IphonePage extends StatefulWidget {
 
 class _IphonePageState extends State<IphonePage> {
   List<Product> produk = [
-    Product('iPhone 11 Pro Max', 'Rp 8.899.000', 'assets/images/11.jpg'),
-    Product('iPhone 12 Pro Max', 'Rp 9.899.000', 'assets/images/12.jpg'),
-    Product('iPhone 13 Pro Max', 'Rp 14.999.000', 'assets/images/13.jpg'),
-    Product('iPhone 14 Pro Max', 'Rp 16.899.000', 'assets/images/14.jpg'),
-    Product('iPhone 11 Pro Max', 'Rp 8.899.000', 'assets/images/11.jpg'),
-    Product('iPhone 12 Pro Max', 'Rp 9.899.000', 'assets/images/12.jpg'),
+    Product(1, 'iPhone 11 Pro Max', 'Rp 8.899.000', 'assets/images/11.jpg'),
+    Product(2, 'iPhone 12 Pro Max', 'Rp 9.899.000', 'assets/images/12.jpg'),
+    Product(3, 'iPhone 13 Pro Max', 'Rp 14.999.000', 'assets/images/13.jpg'),
+    Product(4, 'iPhone 14 Pro Max', 'Rp 16.899.000', 'assets/images/14.jpg'),
+    Product(5, 'iPhone 11 Pro Max', 'Rp 8.899.000', 'assets/images/11.jpg'),
+    Product(6, 'iPhone 12 Pro Max', 'Rp 9.899.000', 'assets/images/12.jpg'),
   ];
 
   @override
@@ -38,7 +38,7 @@ class _IphonePageState extends State<IphonePage> {
       ),
 
       // Drawer start
-      drawer: MyDrawer(),
+      drawer: const MyDrawer(),
       // Drawer end
       body: GridView.builder(
           padding: const EdgeInsets.all(25),

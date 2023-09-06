@@ -13,10 +13,13 @@ class WatchPage extends StatefulWidget {
 
 class _WatchPageState extends State<WatchPage> {
   List<Product> produk = [
-    Product('Apple Watch Series 6', 'Rp 3.499.000', 'assets/images/watch5.jpg'),
-    Product('Apple Watch Series 8', 'Rp 5.999.000', 'assets/images/watch2.jpg'),
-    Product('Apple Watch SE', 'Rp 3.499.000', 'assets/images/watch3.jpg'),
-    Product('Apple Watch Series 7', 'Rp 5.499.000', 'assets/images/watch4.jpg'),
+    Product(
+        1, 'Apple Watch Series 6', 'Rp 3.499.000', 'assets/images/watch5.jpg'),
+    Product(
+        2, 'Apple Watch Series 8', 'Rp 5.999.000', 'assets/images/watch2.jpg'),
+    Product(3, 'Apple Watch SE', 'Rp 3.499.000', 'assets/images/watch3.jpg'),
+    Product(
+        4, 'Apple Watch Series 7', 'Rp 5.499.000', 'assets/images/watch4.jpg'),
   ];
 
   @override

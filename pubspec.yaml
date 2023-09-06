@@ -36,6 +36,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_svg: ^2.0.7
+  provider: ^6.0.5
 
 dev_dependencies:
   flutter_test:
@@ -78,6 +79,7 @@ flutter:
     - family: NotoSerif
       fonts:
         - asset: assets/fonts/NotoSerif-Bold.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
